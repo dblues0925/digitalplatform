@@ -41,6 +41,21 @@ export default [
           },
         ],
       },
+	  //spider
+	  {
+        name: 'spider',
+        icon: 'check-circle-o',
+		//component: '../layouts/BasicLayout',
+        path: '/spider',
+        routes: [
+          // spider
+          {
+            path: '/spider/list',
+            name: 'spiderlist',
+            component: './Spider/SpiderList',
+          },
+        ],
+      },
       // forms
       {
         path: '/form',

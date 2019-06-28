@@ -102,6 +102,8 @@ export default {
   'menu.account.settings': '個人設置',
   'menu.account.trigger': '觸發報錯',
   'menu.account.logout': '退出登錄',
+  'menu.spider': '採集管理',
+  'menu.spider.spiderlist': '採集源',
   'app.login.message-invalid-credentials': '賬戶或密碼錯誤（admin/ant.design）',
   'app.login.message-invalid-verification-code': '驗證碼錯誤',
   'app.login.tab-login-credentials': '賬戶密碼登錄',
@@ -282,4 +284,5 @@ export default {
   'app.setting.copyinfo': '拷貝成功，請到 src/defaultSettings.js 中替換默認配置',
   'app.setting.production.hint':
     '配置欄只在開發環境用於預覽，生產環境不會展現，請拷貝後手動修改配置文件',
+	'spider.list.pageheader':'採集列表',
 };

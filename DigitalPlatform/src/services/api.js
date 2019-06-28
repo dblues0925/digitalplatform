@@ -124,3 +124,35 @@ export async function queryNotices() {
 export async function getFakeCaptcha(mobile) {
   return request(`/api/captcha?mobile=${mobile}`);
 }
+
+// Add api for spider
+export async function querySpider(params) {
+  return request(`/api/spider?${stringify(params)}`);
+}
+export async function removeSpider(params) {
+  return request('/api/spider', {
+    method: 'POST',
+    body: {
+      ...params,
+      method: 'delete',
+    },
+  });
+}
+export async function addSpider(params) {
+  return request('/api/spider', {
+    method: 'POST',
+    body: {
+      ...params,
+      method: 'post',
+    },
+  });
+}
+export async function updateSpider(params) {
+  return request('/api/spider', {
+    method: 'POST',
+    body: {
+      ...params,
+      method: 'update',
+    },
+  });
+}

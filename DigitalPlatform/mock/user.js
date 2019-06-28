@@ -2,53 +2,53 @@
 export default {
   // 支持值为 Object 和 Array
   'GET /api/currentUser': {
-    name: 'Serati Ma',
+    name: 'Mark',
     avatar: 'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
     userid: '00000001',
-    email: 'antdesign@alipay.com',
+    email: 'liuqz@ucap.com.cn',
     signature: '海纳百川，有容乃大',
-    title: '交互专家',
-    group: '蚂蚁金服－某某某事业群－某某平台部－某某技术部－UED',
+    title: '专家',
+    group: '开普云－广州开普－实施部',
     tags: [
       {
         key: '0',
-        label: '很有想法的',
+        label: '耐得烦',
       },
       {
         key: '1',
-        label: '专注设计',
+        label: '专注',
       },
       {
         key: '2',
-        label: '辣~',
+        label: 'Hot~',
       },
       {
         key: '3',
-        label: '大长腿',
+        label: '阳光',
       },
       {
         key: '4',
-        label: '川妹子',
+        label: '吃得哭',
       },
       {
         key: '5',
-        label: '海纳百川',
+        label: '霸得蛮',
       },
     ],
     notifyCount: 12,
     country: 'China',
     geographic: {
       province: {
-        label: '浙江省',
-        key: '330000',
+        label: '广东省',
+        key: '440000',
       },
       city: {
-        label: '杭州市',
-        key: '330100',
+        label: '广州市',
+        key: '440100',
       },
     },
-    address: '西湖区工专路 77 号',
-    phone: '0752-268888888',
+    address: '天河北路信源大厦',
+    phone: '020-38183605',
   },
   // GET POST 可省略
   'GET /api/users': [

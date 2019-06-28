@@ -71,6 +71,8 @@ export default {
   'menu.account.settings': 'Configurar Conta',
   'menu.account.trigger': 'Disparar Erro',
   'menu.account.logout': 'Sair',
+  'menu.spider': 'Spider Management',
+  'menu.spider.spiderlist': 'Spider Source',
   'app.login.message-invalid-credentials': 'Nome de usuário ou senha inválidosd（admin/ant.design）',
   'app.login.message-invalid-verification-code': 'Código de verificação inválido',
   'app.login.tab-login-credentials': 'Credenciais',
@@ -239,4 +241,5 @@ export default {
     'copiado com sucesso，por favor trocar o defaultSettings em src/models/setting.js',
   'app.setting.production.hint':
     'O painel de configuração apenas é exibido no ambiente de desenvolvimento, por favor modifique manualmente o',
+	'spider.list.pageheader':'Spider Source',
 };
